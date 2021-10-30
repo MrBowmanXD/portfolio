@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+	margin:  0;
+	padding: 0;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.row {
+	display: flex;
+}
+
+.col {
+	flex: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.col-left {
+	flex: 50%;
+	display: flex;
+	padding:  20px;
+}
+
+img {
+	border-radius: 50%;
+	width: 500px;
+}
+
+.portfolio_title {
+	text-align: center;
+	padding: 50px;
+	line-height: 1.6;
+}
+
+.portfolio_subtitles {
+	line-height: 1.2;
+}
+
+.logotipo {
+	width: 50px;
+}
+
+.nav-bar {
+	text-align: right;
+	text-decoration: none;
+}
+
+.nav-bar li {
+	display: inline-block;
+	padding: 25px;
+	padding-top: 0;
+}
+
+.nav-bar a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type:  none;
+}
+
+.front-page {
+	background-color: #20bf55;
+	background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+
+h1 {
+	font-size: 40px;
+}
