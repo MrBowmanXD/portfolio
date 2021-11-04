@@ -1,73 +1,120 @@
 * {
-	box-sizing: border-box;
-	margin:  0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .row {
-	display: flex;
+  display: flex;
 }
 
 .col {
-	flex: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .col-left {
-	flex: 50%;
-	display: flex;
-	padding:  20px;
+  flex: 50%;
+  display: flex;
+  padding: 20px;
 }
 
-img {
-	border-radius: 50%;
-	width: 500px;
+.img img {
+  border-radius: 50%;
+  width: 500px;
+  margin-bottom: 50px;
 }
 
 .portfolio_title {
-	text-align: center;
-	padding: 50px;
-	line-height: 1.6;
+  text-align: center;
+  padding: 50px;
+  line-height: 1.6;
 }
 
 .portfolio_subtitles {
-	line-height: 1.2;
+  line-height: 1.2;
 }
 
 .logotipo {
-	width: 50px;
+  width: 50px;
 }
 
 .nav-bar {
-	text-align: right;
-	text-decoration: none;
+  text-align: right;
+  text-decoration: none;
 }
 
 .nav-bar li {
-	display: inline-block;
-	padding: 25px;
-	padding-top: 0;
+  display: inline-block;
+  padding: 25px;
+  padding-top: 0;
+  margin-top: 15px;
 }
 
 .nav-bar a {
-	text-decoration: none;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: black;
+  border: 1px solid green;
+}
+
+.btn-ghost:hover {
+  background-color: darkgreen;
+  color: white;
+  border: 1px solid darkgreen;
 }
 
 ul {
-	list-style-type:  none;
+  list-style-type: none;
 }
 
 .front-page {
-	background-color: #20bf55;
-	background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
 }
 
 h1 {
-	font-size: 40px;
+  font-size: 40px;
+}
+
+#typed {
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+}
+
+.web-apps__class {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/code.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.center {
+  text-align: center;
+}
+
+.web-apps__title {
+  font-family: "Lato", sans-serif;
+  font-size: 350%;
+  margin-bottom: 25px;
+  padding: 25px;
+  color: white;
 }

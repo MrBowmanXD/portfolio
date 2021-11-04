@@ -1,59 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"> 
-	<title>Portfolio Website</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img/front_end_logo.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <section class="front-page">
+      <div class="row">
+        <div class="col-left">
+          <div class="logo">
+            <img
+              src="./img/front_end_logo.png"
+              alt="Logotipo de front end"
+              class="logotipo"
+            />
+          </div>
+        </div>
 
-	<section class="front-page">
+        <div class="col">
+          <div class="nav-bar">
+            <nav>
+              <ul>
+                <li><a class="btn btn-ghost" href="#web-apps">Web-apps</a></li>
+                <li><a class="btn btn-ghost" href="#">Sobre</a></li>
+                <li><a class="btn btn-ghost" href="#">Web-design</a></li>
+                <li><a class="btn btn-ghost" href="#">Contactos</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
 
-		<div class="row">
-			
-			<div class="col-left">
+      <div class="row">
+        <div class="col">
+          <div class="portfolio_title">
+            <h1>Manuel Gonçalves</h1>
+            <div class="portfolio_subtitles" id="typed-strings">
+              <h2>Programador</h2>
+              <h2>Web designer</h2>
+            </div>
+            <span id="typed"></span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="img">
+            <img
+              src="./img/Foto_De_perfil.jpeg"
+              alt="Um desenvolvedor bonito"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-				<div class="logo">
-					<img src="./img/front_end_logo.png" alt="Logotipo de front end" class="logotipo">
-				</div>
-			</div>
-
-			<div class="col">
-				<div class="nav-bar">
-					<nav>
-						<ul>
-							<li><a href="#">Web-apps</a></li>
-							<li><a href="#">Sobre</a></li>
-							<li><a href="#">Web-design</a></li>
-							<li><a href="#">Contactos</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-
-		</div>
-
-		<div class="row">
-			<div class="col">
-				<div class="portfolio_title">
-					<h1>Manuel Gonçalves</h1>
-						<div class="portfolio_subtitles">
-							<h2>Programador</h2>
-							<h2>Web designer</h2>
-						</div>
-				</div>
-			</div>
-			<div class="col">
-				<div class="img">
-				<img src="./img/Foto_De_perfil.jpeg" alt="Um desenvolvedor bonito">
-				</div>
-			</div>
-		</div>
-	</section>
-	<script src="./js/script.js"></script>
-</body>
+    <section class="web-apps__class" id="web-apps">
+      <div class="center">
+        <h2 class="web-apps__title">Web-apps</h2>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
