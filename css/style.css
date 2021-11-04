@@ -61,6 +61,16 @@ body {
   text-decoration: none;
 }
 
+.sticky {
+  position: fixed;
+  /*top: 0;*/
+  /*width: 100%; */
+}
+
+.sticky + body {
+  /*padding-top: 60px; */
+}
+
 .btn {
   padding: 10px;
   border-radius: 50px;
@@ -71,6 +81,11 @@ body {
   background-color: transparent;
   color: black;
   border: 1px solid green;
+}
+
+.btn-full {
+  background-color: green;
+  color: white;
 }
 
 .btn-ghost:hover {
