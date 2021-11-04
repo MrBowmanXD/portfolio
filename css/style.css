@@ -32,6 +32,7 @@ body {
 }
 
 .portfolio_title {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   padding: 50px;
   line-height: 1.6;
@@ -39,6 +40,7 @@ body {
 
 .portfolio_subtitles {
   line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
 }
 
 .logotipo {
@@ -72,6 +74,7 @@ body {
 }
 
 .btn {
+  font-family: "Montserrat", sans-serif;
   padding: 10px;
   border-radius: 50px;
   margin-top: 15px;
@@ -110,7 +113,7 @@ h1 {
 
 #typed {
   font-weight: bold;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 26px;
 }
 
@@ -120,7 +123,7 @@ h1 {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .center {
@@ -128,9 +131,42 @@ h1 {
 }
 
 .web-apps__title {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 350%;
   margin-bottom: 25px;
   padding: 25px;
   color: white;
+}
+
+.web-apps__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 260%;
+  margin-top: 50px;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 40px;
+}
+
+.col-1-of-3 {
+  flex: 1 1 30%;
+  margin-top: 50px;
+}
+
+.col-1-of-3 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__container img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
 }

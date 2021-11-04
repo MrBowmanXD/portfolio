@@ -32,5 +32,8 @@ function myStickyFunction() {
     // btn.classList.add("btn-full");
   } else {
     navbar.classList.remove("sticky");
+    btn.forEach((item, i) => {
+      item.classList.remove("btn-full");
+    });
   }
 }
