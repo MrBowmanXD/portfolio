@@ -75,6 +75,7 @@ body {
 
 .btn-ghost:hover {
   background-color: darkgreen;
+  font-weight: bold;
   color: white;
   border: 1px solid darkgreen;
 }
