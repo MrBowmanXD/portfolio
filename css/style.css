@@ -12,6 +12,28 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.none {
+  display: none !important;
+}
+
+.cancel {
+  cursor: pointer;
+}
+
+.menu {
+  position: fixed;
+  margin-left: 2.5rem;
+  z-index: 1;
+}
+
+.menu-icon {
+  padding: 2.5rem;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  font-size: 2rem;
+}
+
 .row-1 {
   display: flex;
 }
@@ -67,6 +89,22 @@ body {
 }
 
 .nav-bar a {
+  text-decoration: none;
+}
+
+.nav-bar__menu {
+  text-align: right;
+  text-decoration: none;
+  background-color: white;
+}
+
+.nav-bar__menu li {
+  padding: 2.5rem;
+  padding-top: 0;
+  font-size: 1.5rem;
+}
+
+.nav-bar__menu a {
   text-decoration: none;
 }
 
