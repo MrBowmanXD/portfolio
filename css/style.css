@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -22,21 +26,21 @@ body {
 .col-left {
   flex: 50%;
   display: flex;
-  padding: 20px;
+  padding: 2rem;
   align-items: center;
   /* justify-content: center; */
 }
 
 .img img {
   border-radius: 50%;
-  width: 500px;
-  margin-bottom: 50px;
+  width: 50rem;
+  margin-bottom: 5rem;
 }
 
 .portfolio_title {
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  padding: 50px;
+  padding: 5rem;
   line-height: 1.6;
 }
 
@@ -46,7 +50,7 @@ body {
 }
 
 .logotipo {
-  width: 50px;
+  width: 5rem;
 }
 
 .nav-bar {
@@ -56,9 +60,10 @@ body {
 
 .nav-bar li {
   display: inline-block;
-  padding: 25px;
+  padding: 2.5rem;
   padding-top: 0;
-  margin-top: 15px;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .nav-bar a {
@@ -78,15 +83,15 @@ body {
 
 .btn {
   font-family: "Montserrat", sans-serif;
-  padding: 10px;
-  border-radius: 50px;
-  margin-top: 15px;
+  padding: 1rem;
+  border-radius: 5rem;
+  margin-top: 1.5rem;
 }
 
 .btn-ghost {
   background-color: transparent;
   color: black;
-  border: 1px solid green;
+  border: 0.1rem solid green;
 }
 
 .btn-full {
@@ -98,7 +103,7 @@ body {
   background-color: darkgreen;
   font-weight: bold;
   color: white;
-  border: 1px solid darkgreen;
+  border: 0.1rem solid darkgreen;
 }
 
 ul {
@@ -111,13 +116,13 @@ ul {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 #typed {
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
-  font-size: 26px;
+  font-size: 2.6rem;
 }
 
 .web-apps__class {
@@ -135,16 +140,16 @@ h1 {
 
 .web-apps__title {
   font-family: "Montserrat", sans-serif;
-  font-size: 300%;
-  margin-bottom: 25px;
-  padding: 25px;
+  font-size: 350%;
+  margin-bottom: 2.5rem;
+  padding: 2.5rem;
   color: white;
 }
 
 .web-apps__subtitle {
   font-family: "Montserrat", sans-serif;
-  font-size: 150%;
-  margin-top: 50px;
+  font-size: 280%;
+  margin-top: 5rem;
   color: white;
 }
 
@@ -152,7 +157,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px 40px;
+  gap: 2rem 4rem;
 }
 
 .col-1-of-3 {
@@ -161,10 +166,20 @@ h1 {
   justify-content: center;
   flex-direction: column;
   flex: 1 1 30%;
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 
-.img__container img {
-  width: 350px;
-  height: 350px;
+/*
+.icon__container i {
+  width: 35rem;
+  height: 35rem;
+}
+*/
+
+.icon {
+  font-size: 32rem;
+  color: transparent;
+  background-clip: text;
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
 }
