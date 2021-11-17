@@ -298,4 +298,8 @@ h1 {
   .nav-bar {
     display: none;
   }
+
+  .img img {
+    width: 50vw;
+  }
 }
