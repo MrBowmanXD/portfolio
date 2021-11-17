@@ -297,7 +297,7 @@ h1 {
 }
 
 .footer {
-  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
   padding: 5rem;
 }
 
@@ -318,7 +318,7 @@ h1 {
 .social-links li a:visited {
   text-decoration: none;
   border: 0;
-  color: #01baef;
+  color: black;
   transition: color 0.2s;
 }
 
