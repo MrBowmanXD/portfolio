@@ -61,7 +61,9 @@
                 <li>
                   <a class="btn btn-ghost" href="#web-design">Web-design</a>
                 </li>
-                <li><a class="btn btn-ghost" href="#">Contactos</a></li>
+                <li>
+                  <a class="btn btn-ghost" href="#contactos">Contactos</a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -77,7 +79,7 @@
                 <li><a class="" href="#web-apps">Web-apps</a></li>
                 <li><a class="" href="#sobre">Sobre</a></li>
                 <li><a class="" href="#web-design">Web-design</a></li>
-                <li><a class="" href="#">Contactos</a></li>
+                <li><a class="" href="#contactos">Contactos</a></li>
                 <li><i class="far fa-times-circle cancel"></i></li>
               </ul>
             </nav>
@@ -200,6 +202,92 @@
         </div>
       </div>
     </section>
+
+    <section class="contactos__class" id="contactos">
+      <div class="container">
+        <div class="center">
+          <h2 class="contactos__title">Contactos</h2>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <label class="label" for="nome">Nome</label>
+          </div>
+          <div class="col-6">
+            <input
+              class="input"
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="O seu nome"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <label class="label" for="email">Email</label>
+          </div>
+          <div class="col-6">
+            <input
+              class="input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="O seu email"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <label class="label" for="assunto">Assunto</label>
+          </div>
+          <div class="col-6">
+            <input
+              class="input"
+              type="text"
+              name="assunto"
+              id="assunto"
+              placeholder="O seu assunto"
+              required
+            />
+          </div>
+        </div>
+        <div class="row margin__bottom--large">
+          <div class="col-6">
+            <label class="label">A sua mensagem para nós</label>
+          </div>
+          <div class="col-6">
+            <textarea
+              class="input"
+              name="mensagem"
+              placeholder="A sua mensagem"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col center">
+            <input type="submit" class="btn btn-full" value="Envia!" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="center">
+        <ul class="footer-nav">
+          <li>
+            <a target="_blank" href="https://github.com/MrBowmanXD"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.facebook.com/Manuel.Gonalves/"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
     <script src="./js/script.js"></script>
   </body>
 </html>

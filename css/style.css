@@ -134,15 +134,17 @@ body {
 }
 
 .btn-full {
-  background-color: green;
+  background-color: #20bf55;
   color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .btn-ghost:hover {
-  background-color: darkgreen;
+  background-color: #20bf55;
   font-weight: bold;
   color: white;
-  border: 0.1rem solid darkgreen;
+  border: 0.1rem solid #20bf55;
 }
 
 ul {
@@ -265,6 +267,79 @@ h1 {
   font-size: 280%;
   margin-top: 5rem;
   color: white;
+}
+
+.contactos__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 350%;
+  margin-bottom: 2.5rem;
+  padding: 2.5rem;
+}
+
+.label {
+  display: block;
+  font-size: 1.5rem;
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.input {
+  font-size: 1.5rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.margin__bottom--large {
+  margin-bottom: 2.5rem;
+}
+
+.footer {
+  background-color: #20bf55;
+  padding: 5rem;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #01baef;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #ddd;
+}
+
+footer p {
+  color: #ddd;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer-nav img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.footer-nav li a {
+  font-size: 2.5rem;
 }
 
 /* Media queries */
