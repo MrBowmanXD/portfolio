@@ -374,7 +374,36 @@ footer p {
     display: none;
   }
 
+  .portfolio_title h1 {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    font-weight: bold;
+  }
+
+  .portfolio_title {
+    padding: 5rem;
+  }
+
+  #typed {
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+
   .img img {
     width: 50vw;
+  }
+
+  .img {
+    text-align: center;
+  }
+
+  .label {
+    text-align: center;
+  }
+
+  .input {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
   }
 }
