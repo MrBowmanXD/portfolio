@@ -39,7 +39,7 @@ body {
 }
 
 .col-right {
-  flex: 50%;
+  flex: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -267,6 +267,17 @@ h1 {
   font-size: 280%;
   margin-top: 5rem;
   color: white;
+}
+
+.formulario__class {
+  background-color: #f4f4f4;
+}
+
+.formulario__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 350%;
+  margin-bottom: 2.5rem;
+  padding: 2.5rem;
 }
 
 .contactos__title {
